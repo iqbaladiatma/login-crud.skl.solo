@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Kontainer utama konten */
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk footer yang menyerupai search bar */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    /* Mengangkat sedikit agar terlihat seperti "floating" */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #555;
+}
+
+/* Gaya untuk teks dan tautan dalam footer */
+.footer-text {
+    text-align: center;
+    color: #333;
+}
+
+.footer-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
